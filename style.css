@@ -251,7 +251,6 @@ body {
 .menuUnit a {
     display: block;
     font-size: 14px;
-    line-height: 17px;
     color: #6F6E6E;
     text-decoration: none;
     margin-left: 21px;
@@ -333,7 +332,7 @@ body {
 }
 
 .featured h2 {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 3px;
     text-align: center;
     color: #222222;
@@ -456,6 +455,32 @@ body {
     color: white;
     background: #F16D7F;
 }
+
+.pagination {
+    height: 43px;
+    width: 284px;
+    border: 1px solid #EBEBEB;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.pagination a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+.pagination a:hover {
+    color: #F16D7F;
+
+}
+
 
 .services {
     background: #222224;
@@ -885,7 +910,7 @@ body {
 .filtersLeft:hover .filterIcon  {
     left: 16px;
     top: 13px;
-} */ 
+} */
 
 /* .filtersLeft:hover .filterLabel {
     color: #EF5B70;
@@ -934,7 +959,7 @@ body {
     margin-bottom: 24px;
 }
 
-.filterCategory a{
+.filterCategory a {
     display: block;
     text-decoration: none;
     padding-left: 34px;
@@ -944,7 +969,7 @@ body {
     color: #6f6e6e;
 }
 
-.filterCategory a:hover{
+.filterCategory a:hover {
     color: #ef5b70;
 }
 
@@ -976,7 +1001,6 @@ body {
     color: #6f6e6e;
 }
 
-.filterSizesList > div:not(:last-child) {
+.filterSizesList>div:not(:last-child) {
     margin-bottom: 4px;
 }
-
